@@ -18,6 +18,8 @@ def load_img(path, name, mun=30, add_with=0):
     cv2.namedWindow('face')
     # 打开第一个个摄像头
     cap = cv2.VideoCapture(0)
+    # 输入视频
+    #cap = cv2.VideoCapture('1.mp4')
     # 根据摄像头设置IP及rtsp端口
     # url='rtsp://admin:admin@192.168.0.104:8554/live'
     # cap = cv2.VideoCapture(url)
